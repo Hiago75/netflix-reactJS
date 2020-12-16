@@ -59,6 +59,17 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items}/>
         ))}
       </section>
+
+      <footer>
+        Feito com <span role="img" aria-label="coração">❤️</span> por mim<br />
+        Dados retirados do Themoviedb.org
+      </footer>
+
+      {movieList.length <= 0 &&
+        <div className="loading">
+          <img src="https://www.filmelier.com/pt/br/news/wp-content/uploads/2020/03/Netflix_LoadTime-scaled.gif" alt="Carregando" ></img>
+        </div>
+      }
     </div>
   )
 }

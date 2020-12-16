@@ -71,3 +71,44 @@
     font-size: 18px;
     color: #999;
 }
+@media screen and (max-width: 768px){
+    .featured-name{
+        font-size: 45px;
+    }
+    .featured-info{
+        font-size: 18px;
+    }
+    .featured-description{
+        font-size: 16px;
+        max-width: 100%;
+        margin-right: 30px
+    }
+    .featured-watchButton, .featured-myListButton{
+        font-size: 16px;
+        padding: 12px 23px;
+    }
+    .featured-genres{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .featured-name{
+        font-size: 40px;
+    }
+    .featured-info{
+        font-size: 16px;
+    }
+    .featured-description{
+        font-size: 14px;
+        max-width: 100%;
+        margin-right: 30px
+    }
+    .featured-watchButton, .featured-myListButton{
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .featured-genres{
+        font-size: 14px;
+    }
+}
